@@ -1,0 +1,94 @@
+.todo-page {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(255, 246, 229, 0.82);
+}
+
+.page-title {
+    color: rgba(206, 174, 112, 0.82);
+}
+
+.todo-list {
+    width: 700px;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgba(183, 216, 229, 0.75);
+    background-color: rgba(209, 241, 253, 0.75);
+    border-radius: 5px;
+}
+
+.form {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid #cb9ca6;
+    border-radius: 5px;
+    background-color: #e8c4cc;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.84);
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.84);
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: #e8c4cc;
+    border: 2px solid #cb9ca6;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    padding-right: 5px;
+    width: 35%;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.list::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #b6ccb7;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: #7f9a81;
+    border-radius: 3px;
+}
+
+.list-item {
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6ccb7;
+    border: 2px solid #7f9a81;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
